@@ -284,21 +284,29 @@ footer{
    }
    .container{
        flex-direction: column;
+       padding:5px;
      
        
    }
    .section-left{
        
    }
-   .section-right{
+   .section-right img{
+       width:100%;
+       background-image:url(./images/Circle\ design.svg);
+       background-position: center;
        
    }
-   .collection-card{
+   .collection-card, .contact{
+       width: 100%;
        grid-template-columns:1fr;
-       justify-content: center;
-       align-items: center;
+        margin-right:20px;
    }
-
+   .contact img{
+       width:100%;  
+   }
 }
+
+/* fortablet device */
 
 

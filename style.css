@@ -87,7 +87,7 @@ nav{
     color:#FFFFFF;
     background-color: #E02C6D;
     padding: 10px 24px;
-    border-radius: 41px;
+    border-radius: 10px;
     outline: none;
 }
 
@@ -177,5 +177,38 @@ nav{
     color:#E02C6D;
     cursor: pointer;
 }
+/* contact star */
+.contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    margin-top:50px;
+}
+.contact-left{
+    width: 100%;
+}
+.contact-left img{
+    border: 2px solid #E02C6D;;
+}
+.contact-right form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}   
+
+
+
+.text-field{
+    width:100%;
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 18px;
+    font-size: inherit;
+    outline: 0;
+    border: 1px solid #E02C6D;
+    
+}
+
 
 

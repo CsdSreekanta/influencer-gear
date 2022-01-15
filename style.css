@@ -55,7 +55,11 @@ nav{
 /* section star */
 .section{
     display: flex; 
-    margin-bottom: 100px;  
+    margin-bottom: 100px;
+    transition:transform 10s;  
+}
+.section:hover{
+    transform: rotate3d(2, -1, -1, -0.2turn);
 }
 .section-left{
     margin-top:160px;

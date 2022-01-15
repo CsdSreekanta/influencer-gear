@@ -90,6 +90,7 @@ nav{
     border-radius: 41px;
     outline: none;
 }
+
 .section-right{
     width: 440px;
     height:390px;
@@ -101,8 +102,13 @@ nav{
     
 }
 /* popular collection added */
+.collection{
+    width: 1047px;
+    height: 1662px;
+    
+}
 .popular-collection{
-    margin-top:180px
+    margin-top:200px
 }
 .collection-card{
     margin-top:30px;
@@ -149,9 +155,27 @@ nav{
     align-items: center;
     gap:10px
 }
-.fas{
+.card-icon{
     color: #FB8200;
 
+}
+.collection-card{
+    /* margin:0 20px;
+     */
+     /* width:100%; */
+     /* margin:0 auto; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    margin-left: 25px;
+    
+}
+.more-info{
+    padding: 0 20px;
+    margin-top: 50px;
+    text-align: end;
+    color:#E02C6D;
+    cursor: pointer;
 }
 
 

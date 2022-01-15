@@ -294,6 +294,7 @@ footer{
    .section-right img{
        width:100%;
        background-image:url(./images/Circle\ design.svg);
+       background-repeat: no-repeat;
        background-position: center;
        
    }
@@ -314,7 +315,10 @@ footer{
     body{
         background-color: yellowgreen;
     }
-    
+    .section-right img{
+        margin-top: 100px;
+    }
+
     .collection-card, .contact{
         width: 100%;
         grid-template-columns:1fr 1fr;

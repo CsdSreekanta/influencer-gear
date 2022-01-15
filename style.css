@@ -300,7 +300,8 @@ footer{
    .collection-card, .contact{
        width: 100%;
        grid-template-columns:1fr;
-        margin-right:20px;
+        /* margin-right:20px; */
+        margin-left: 0;
    }
    .contact img{
        width:100%;  
